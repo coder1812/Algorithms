@@ -3,7 +3,7 @@ package com.bridgeit.utility;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Scanner;
+
 
 public class Utility {
 
@@ -270,7 +270,8 @@ public class Utility {
 				System.out.println(flag);
 			}
 
-			else (array[mid]<target) {
+			else (array[mid]<target) 
+			{
 				start = mid + 1;
 				flag = true;
 				System.out.println(flag);
