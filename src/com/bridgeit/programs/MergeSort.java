@@ -29,7 +29,6 @@ public class MergeSort {
 			System.out.println("After sort:");
 			utility.printArray(arr);
 			System.out.println();
-			
 		}
 	}
 
